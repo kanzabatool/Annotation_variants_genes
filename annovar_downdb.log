@@ -1,0 +1,13 @@
+ANNOVAR Version:
+	$Date: 2017-07-17 01:17:04 -0400 (Mon, 17 Jul 2017) $
+ANNOVAR Information:
+	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
+ANNOVAR Command:
+	annotate_variation.pl -downdb -buildver hg19 gene humandb/
+ANNOVAR Started:
+	Tue Apr 10 01:47:47 2018
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Done
+NOTICE: Downloading annotation database http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz ... Done
+NOTICE: Uncompressing downloaded files
+ERROR: gunzip is not installed in your system.
+Please manually uncompress the files (refGene.txt.gz) at the humandb directory, and rename them by adding hg19_ prefix to the file names.
