@@ -3,11 +3,14 @@ ANNOVAR Version:
 ANNOVAR Information:
 	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
 ANNOVAR Command:
-	annotate_variation.pl -downdb -buildver hg19 gene humandb/
+	annotate_variation.pl --buildver hg19 --downdb seq humandb/hg19_seq
 ANNOVAR Started:
-	Tue Apr 10 01:47:47 2018
+	Sat Apr  7 22:03:46 2018
 NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Done
-NOTICE: Downloading annotation database http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz ... Done
+NOTICE: Downloading annotation database http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromFa.zip ... Failed
+NOTICE: Downloading annotation database http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz ... Done
+NOTICE: Downloading annotation database http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.chromFa.tar.gz ... Failed
+NOTICE: Downloading annotation database http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz ... Failed
 NOTICE: Uncompressing downloaded files
-ERROR: gunzip is not installed in your system.
-Please manually uncompress the files (refGene.txt.gz) at the humandb directory, and rename them by adding hg19_ prefix to the file names.
+NOTICE: Finished downloading annotation files for hg19 build version, with files saved at the 'humandb/hg19_seq' directory
+WARNING: Some files cannot be downloaded, including http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromFa.zip, http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.chromFa.tar.gz, http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz
